@@ -1,0 +1,135 @@
+.gowun-batang-regular {
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .gowun-batang-bold {
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+*{
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+font-family: "Gowun Batang", serif;
+}
+html,body {
+width: 100%;
+height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+   
+    
+}
+.page-1{
+    width: 100%;
+    height: 100%;
+    padding: 0 5vw;
+    background-image: url("/asset/asset\ 20.jpeg");
+    color: white;
+}
+.nav{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 0.8vw; */
+    padding-top: 1vw;
+    
+  
+    
+}
+
+.left{
+    display: flex;
+    gap: 2vw;
+}
+.left i{
+  font-size: 2vw;
+}
+.left i:hover{
+    color: #007bff;
+    cursor: pointer;
+}
+.search{
+    border-bottom: 1px solid white;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 0.7vw;
+    width: 14vw;
+    
+
+}
+.search>i{
+    font-size: 1.5vw;
+    font-weight: 600;
+
+}
+.search>i:hover{
+    color: #007bff;
+    cursor: pointer; 
+}
+.search.input{text}::placeholder{
+    font-size:1.2vw;
+    font-weight:600;
+    color:white
+
+}
+
+
+
+ h1{
+    font-size: 2.5vw;
+}
+h1:hover {
+    color: #007bff;
+    cursor: pointer; 
+}
+
+:hover::after {
+    color: #007bff; 
+}
+input{
+    border: none;
+    outline: none;
+    background-color: #310401;
+   
+}
+
+
+/* lestss build nav section two =============> */
+.nav2>ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 2vw;
+    margin-top: 1vw;
+}
+.nav2>ul>li:hover{
+    color: #007bff;
+    cursor: pointer; 
+    border-bottom: 1px solid white;
+
+}
+
+/* page-2 start here=================> */
+
+.page-2{
+    height: 100vh;
+    width: 100%;
+    padding: 0 5vw;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
