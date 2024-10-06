@@ -1,0 +1,171 @@
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+}
+html,body {
+width: 100%;
+height: 100%;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+.page-1{
+    height: 100%;
+    width: 100%;
+}
+.wrap{
+    display: flex;
+    padding: 0 1.2%;
+    
+}
+.wrap1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+}
+nav {
+    background-color: white;
+    padding: 10px 20px;
+  width: 100%;
+   padding: 0 10%;
+   display: flex;
+   flex-direction: column;
+   
+   padding-top: 0.5vw;
+    /* border: 1px solid ; */
+    /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); */
+   
+}
+
+ul {
+    list-style: none;
+   display: flex;
+   justify-content: space-between;
+    margin: 0;
+
+}
+.wrap2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+}
+.wrap2>.left-demo{
+   display: flex;
+   gap: 3px;
+}
+.wrap2>.left-demo>i{
+    font-size: 1.7vw;
+    
+}
+li {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+li i {
+    margin-right: 8px;
+    font-size: 18px;
+    color: #666;
+}
+
+li:hover {
+    color: #007bff;
+}
+
+li.wrap2 {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.wrap2 i {
+    margin-left: 5px;
+}
+
+
+
+
+/* Main Navigation Container */
+.part-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+/* Left Section (Logo and Navigation Links) */
+.part-2 .left {
+    display: flex;
+    align-items: center;
+}
+
+.part-2 .left img {
+    width: 120px; /* Adjust logo size */
+    margin-right: 30px; /* Space between logo and nav items */
+}
+
+.part-2 .wrap1 {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.part-2 .wrap1 h3 {
+    font-size: 16px;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.part-2 .wrap1 i {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Hover Effect */
+.part-2 .wrap1:hover {
+    color: #007bff;
+}
+
+/* Right Section (Buttons) */
+.part-2 .right button {
+    background-color: transparent;
+    border: 1px solid #FF5C35;
+    color: #FF5C35;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+}
+
+.part-2 .right button:hover {
+    background-color: #FF5C35;
+    color: white;
+}
+
+.part-2 .right button:first-child {
+    background-color: #fff;
+}
+
+.part-2 .right button:last-child {
+    background-color: #FF5C35;
+    color: white;
+    border: none;
+}
+
+
