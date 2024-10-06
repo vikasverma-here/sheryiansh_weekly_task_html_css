@@ -30,6 +30,7 @@ nav {
     background-color: white;
     padding: 10px 20px;
   width: 100%;
+  height: 17%;
    padding: 0 10%;
    display: flex;
    flex-direction: column;
@@ -167,5 +168,87 @@ li.wrap2 {
     color: white;
     border: none;
 }
+.page-1>.hero-section{
+    border: 1px solid black;
+    height: 83%;
+    padding: 0 10%;
+    display: flex;
+background-color: #FEF4EA;
+    align-items: center;
+    gap: 5vw;
+   
+}
+.hero-section>.left{
+    width: 80%;
+    /* border: 1px solid black; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
+}
+.hero-section>.right{
+    /* border: 1px solid black; */
+}
+.hero-section>.right>img{
+  width: 100%;
+
+    
+}
+.hero-section>.left>h2{
+    font-size: 4vw;
+}
+.hero-section>.left>.btn>.btn1{
+    background-color: transparent;
+    border: 1px solid #FF5C35;
+    background-color:  #FF5C35;
+    color: white;
+    font-weight: 900;
+   
+    padding: 20px 40px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+}
+.hero-section>.left>.btn>.btn2{
+    background-color: transparent;
+    border: 1px solid #FF5C35;
+    color: #FF5C35;
+    padding: 20px 40px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+}
+.hero-section>.left>.btn>button:hover{
+    background-color:  #ec8d75;
+    color: white;
+}
+
+.page-2{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    padding: 0 10%;
+    border: 1px solid black;
+}
+.page-2>.top{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid black;
+    align-items: center;
+    gap: 2vw;
+    padding-top: 2vw;
+    
 
 
+}
+.logo>.logo-slide>img{
+    
+
+ 
+}
