@@ -169,7 +169,7 @@ li.wrap2 {
     border: none;
 }
 .page-1>.hero-section{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 83%;
     padding: 0 10%;
     display: flex;
@@ -231,24 +231,203 @@ background-color: #FEF4EA;
 .page-2{
     height: 100%;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     padding: 0 10%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .page-2>.top{
     display: flex;
     flex-direction: column;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     align-items: center;
     gap: 2vw;
     padding-top: 2vw;
     
-
-
+    overflow: hidden;
+    
+}
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.logo>.logo-slide{
+    white-space: nowrap;
+    animation: 20s slide infinite linear;
+    display: inline-block;
 }
 .logo>.logo-slide>img{
-    
+    margin: 0 10px;
 
  
+}
+.logo{
+   display: flex;
+   
+}
+
+.page-2>.bottom{
+    display: flex;
+  width: 100%;
+  height: 65%;
+  /* background-color: #007bff; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-2>.bottom>.right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 2vw;
+    
+}
+.page-2>.bottom>.right>h2{
+    font-size: 2vw;
+    font-weight: 800;
+}
+
+.right>.buttons>button{
+    background-color: transparent;
+    border: 1px solid #FF5C35;
+    color: #FF5C35;
+    padding: 20px 40px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+}
+
+.page-3{
+    height: 100%;
+    width: 100%;
+    background-color: #FEF4EA;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.page-3>.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vw;
+}
+
+.page-3>.content>h2{
+font-size: 2vw;
+font-weight: 700;
+margin-bottom: 0.5vw;
+}
+.page-3>.content>.btns>button{
+    background-color: transparent;
+    border: 1px solid #FF5C35;
+    color: #FF5C35;
+    padding: 20px 40px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+    font-size: 1.3vw;
+    font-weight: 600;
+    margin-top: 0.3vw;
+
+}
+.page-4{
+    height: 100%;
+    width: 100%;
+    /* background-color:#FEF4EA; */
+    /* border: 1px solid black; */
+}
+.page-4>.top>h2{
+    font-size: 2vw;
+    font-weight: 700;
+}
+.page-4>.top{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+
+    
+}
+.page-4>.top>p{
+    line-height: 0.1vw;
+}
+.page-4>.cards{
+    width: 100%;
+    height: 80%;
+    /* background-color: #007bff; */
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+}
+.page-4>.cards>.cart1{
+
+ 
+}
+.cart1 {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    border-radius: 8px;
+    background-color: white;
+    overflow: hidden;
+    /* width: 300px; */
+    margin: 0 auto;
+    height: 90%;
+    width: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.cart1 h4 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.cart1 p {
+    margin-bottom: 15px;
+}
+
+.cart1 button {
+    padding: 10px 20px;
+    /* background-color: #007bff; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   background-color:  #FF5C35;
+   color: white;
+}
+
+.cart1 button:hover {
+    background-color: #0056b3;
+}
+
+.page-4>.cards>.cart1>img{
+    width: 100%;
 }
