@@ -43,6 +43,7 @@ body, html {
     background: #DBE6F6;  
     background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6); 
     background: linear-gradient(to right, #C5796D, #DBE6F6); 
+    
 }
 
 /* Profile image styling */
@@ -141,6 +142,8 @@ body, html {
     z-index: 1000;
     
 
+    
+
 }
 
 .elements {
@@ -157,6 +160,7 @@ body, html {
     font-size: 24px;
     font-weight: bold;
     width: 50px;
+    font-weight: 900;
     
 }
 
@@ -174,6 +178,7 @@ body, html {
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s ease;
+    font-weight: 800;
 }
 
 .nav-links a:hover {
