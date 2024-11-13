@@ -81,7 +81,7 @@
     max-width: 1180px;
     margin-inline: auto;
     padding: 20px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
   }
 
@@ -112,7 +112,7 @@
 }
 
 .logo-image {
-  width: 40px; /* Adjust size as needed */
+  width: 40px; 
   margin-right: 10px;
 }
 
@@ -135,7 +135,7 @@
 }
 
 .nav-items a:hover {
-  color: #007bff; /* Hover color */
+  color: #007bff; 
 }
 
 /* hero ka center part  */
@@ -180,11 +180,11 @@
 }
 
 .left button:last-child {
-  background-color: #6c757d; /* Different color for second button */
+  background-color: #6c757d;
 }
 
 .left button:hover {
-  background-color: #0056b3; /* Darker shade for hover */
+  background-color: #0056b3; 
 }
 
 .left button:last-child:hover {
@@ -208,7 +208,7 @@
   padding: 40px 0;
   background-color: #f9f9f9;
   justify-content: space-between;
-  flex-wrap: wrap; /* Wraps to the next line on smaller screens */
+  flex-wrap: wrap;
 }
 
 .crt1 {
@@ -224,7 +224,7 @@
 }
 
 .crt1:hover {
-  transform: translateY(-5px); /* Slight lift on hover */
+  transform: translateY(-5px); 
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
@@ -234,7 +234,7 @@
 }
 
 .logo-img img {
-  max-width: 80px; /* Adjust the logo size */
+  max-width: 80px;
   height: auto;
 }
 
@@ -259,7 +259,7 @@
 
 .payment-method {
   display: flex;
-  align-items: stretch; /* Ensures equal height for left and right sections */
+  align-items: stretch; 
   gap: 20px;
   padding: 40px;
   background-color: #f8f9fa;
@@ -267,9 +267,9 @@
 
 .payment-method .left,
 .payment-method .right {
-  flex: 1; /* Gives equal width to both sides */
+  flex: 1; 
   border-radius: 10px;
-  overflow: hidden; /* Ensures image rounding matches the box */
+  overflow: hidden; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -315,9 +315,170 @@
   text-align: center;
   margin: 30px 30px;
   font-size: 50px;
+
+}
+
+/* ================================> */
+.repots {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  background-color: #31262F;
   
 }
 
+.report-left, .report-center, .repot-right {
+  flex: 1;
+  background-color: #31262F;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.report-left h1 {
+  font-size: 2em;
+  color: #D99669;
+  margin: 5px 0;
+}
+
+.report-left p {
+  font-size: 1.5em;
+  font-weight: 800;
+  color:#D99669;
+  margin-top: 10px;
+}
+
+.fifo-img img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.center-ontent h3 {
+  font-size: 1.4em;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.center-ontent p {
+  font-size: 1em;
+  color:white;
+  line-height: 1.6;
+}
+.report-secction{
+  margin-top: 30px;
+  background-color: #31262F;
+}
+
+/* ===============================================> */
+.motivation-content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+}
+.motivation{
+  margin-top: 60px;
+}
+.quate p {
+  font-size: 1.2em;
+  color: #555;
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.author .img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow to the image */
+}
+
+.author h3 {
+  font-size: 1.1em;
+  color: #333;
+  font-weight: normal;
+}
+
+
+
+/* =========================================================> */
+
+
+.footer {
+  background-color: #31262F;
+  color: #f0f0f0;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  font-size: 1.2em;
+  color: #fff;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin: 10px 0;
+}
+
+.footer-section a {
+  color: #d1d1d1;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.footer-section a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 
   @media (max-width: 768px) {
