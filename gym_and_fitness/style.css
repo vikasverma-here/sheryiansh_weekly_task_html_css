@@ -266,6 +266,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    
   }
   
   .plan {
@@ -274,11 +275,15 @@
     padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); */
+
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 1);
+ 
   }
   
   .plan:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+ 
   }
   
   .plan h3 {
@@ -324,7 +329,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
     background-color: #111;
   }
   
@@ -334,6 +339,7 @@
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 1);
   }
   
   .discount-card h2 {
@@ -423,6 +429,59 @@
   .post-content .btn:hover {
     background-color: #f40612;
   }
+
+
+/* !!!!!!!!!!!!!!!=================> */
+footer {
+  background-color: #1F1F1F;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: red;
+  font-weight: 900;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
 
 
   @media (max-width: 768px) {
