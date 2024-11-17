@@ -164,7 +164,7 @@ button:active {
     margin-top: 4vw;
 }
 .hero>.right{
-    height: 58%;
+    height: 50%;
     width: 52%;
     border: 5px solid rgb(31, 28, 177);
     border-radius: 1vw;
@@ -172,7 +172,7 @@ button:active {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
 
 }
-.hero>.right>.video{
+.hero>.right> video{
     width: 100%;
     height: 100%;
     border-radius: 1vw;
