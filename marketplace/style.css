@@ -138,7 +138,6 @@
   color: #007bff; 
 }
 
-/* hero ka center part  */
 
 .hero-items {
   display: flex;
@@ -201,7 +200,7 @@
   border-radius: 10px;
 }
 
-/* tansaction  */
+
 .carts {
   display: flex;
   gap: 20px;
@@ -255,7 +254,7 @@
   font-size: 50px;
 }
 
-/* payment-option */
+
 
 .payment-method {
   display: flex;

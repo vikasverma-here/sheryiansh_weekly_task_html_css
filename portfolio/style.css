@@ -1,4 +1,4 @@
-/* Reset default margins and paddings */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
-/* Container styling */
+
 .container {
     display: flex;
     width: 100%;
@@ -18,7 +18,7 @@ body, html {
     margin: 0 auto;
 }
 
-/* Left: Fixed user profile card */
+
 .left {
     width: 20%;
     position: fixed;
@@ -28,7 +28,7 @@ body, html {
     
     border-right: 1px solid #ddd;
 }
-/* Profile card container */
+
 .profile-card {
     width: 100%;
     padding: 20px;
@@ -46,7 +46,7 @@ body, html {
     
 }
 
-/* Profile image styling */
+
 .profile-image img {
     width: 150px;
     height: 150px;
@@ -55,7 +55,7 @@ body, html {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Profile name and info */
+
 .profile-info h2 {
     margin: 15px 0 5px;
     font-size: 24px;
@@ -67,7 +67,7 @@ body, html {
     color: #777;
 }
 
-/* Portfolio highlights */
+
 .profile-info ul {
     list-style-type: none;
     padding: 0;
@@ -82,21 +82,21 @@ body, html {
     line-height: 1.4;
 }
 
-/* Social media links */
+
 .social-media {
     margin-top: 15px;
 }
 
 .social-media a {
     text-decoration: none;
-    color: #0073b1; /* LinkedIn Color */
+    color: #0073b1; 
     font-size: 14px;
     margin: 0 5px;
     transition: color 0.3s ease;
 }
 
 .social-media a:hover {
-    color: #005582; /* Darker LinkedIn Color */
+    color: #005582; 
 }
 
 
@@ -115,10 +115,10 @@ body, html {
     margin-bottom: 5px;
 }
 
-/* Center: Scrollable multipage content */
+
 .center {
     width: 60%;
-    margin-left: 20%; /* Ensure space for the fixed left section */
+    margin-left: 20%; 
     padding: 20px;
     overflow-y: auto;
 }
@@ -133,8 +133,7 @@ body, html {
     
 }
 .navbar {
-    /* background-color: #333; */
-    /* color: white; */
+   
    
     padding: 15px 0;
     position: sticky;
@@ -204,7 +203,7 @@ section {
 }
 
 .center {
-    text-align: center; /* Center-aligns text and images */
+    text-align: center; 
 }
 
 h2 {
@@ -215,7 +214,7 @@ h2 {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Responsive grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
     gap: 20px; /* Space between items */
 }
 
@@ -224,16 +223,16 @@ h2 {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s; /* Animation effect on hover */
+    transition: transform 0.2s; 
 }
 
 .project:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
+    transform: scale(1.05); 
 }
 
 .project-img {
-    max-width: 100%; /* Responsive image */
-    border-radius: 5px; /* Rounded corners */
+    max-width: 100%; 
+    border-radius: 5px; 
 }
 
 .project-link {
@@ -244,7 +243,7 @@ h2 {
 }
 
 .project-link:hover {
-    text-decoration: underline; /* Underline effect on hover */
+    text-decoration: underline; 
 }
 
 .skills {
@@ -368,7 +367,7 @@ h3 {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-    /* display: flex; */
+  
     align-items: center;
 }
 
